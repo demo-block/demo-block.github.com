@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="format-detection" content="email=no" />
+	<title>查看详细</title>
+	<script src="js/bowser.min.js" type="text/javascript"></script>
+	<script>
+		var iPhone = bowser.name;
+		if (iPhone = 'iPhone') {
+			var meta = document.createElement("meta");
+			var head = document.getElementsByTagName("head")[0];
+			head.insertBefore(meta, head.childNodes[0]);
+			meta.setAttribute("name", "viewport");
+			meta.setAttribute("content", "width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1");
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/system.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+	<div class="box">
+		<div class="main" style="margin-top: 60px;">
+			<div class="app_item">
+				<div class="detail_title">
+					牛巅峰
+				</div>
+				<h4 class="er_title addr">
+					下载地址：<a href="http://154.197.26.14:8088/assets/niumowang.apk">
+						http://154.197.26.14:8088/assets/niumowang.apk</a>
+				</h4>
+				<h4 class="er_title">
+					模式
+				</h4>
+				<div class="app_info">
+					<p> 数据查看：大联盟排行榜 </p>
+					<p> 1）大联盟排行榜：体力排行（排名、玩家ID、体力、查看详情-显示下一级别的个人信息里面的内容）*排行榜只显示当前俱乐部前10000名； </p>
+					<p> 2）七日大赢家（排名、玩家ID、总局数、大赢家次数、查看详情-显示下一级别的个人信息里面的内容）*排行榜只显示当前俱乐部前5000名、 </p>
+					<p> 3）七日总局数（排名、玩家ID、总局数、大赢家次数、查看详情-显示下一级别的个人信息里面的内容）*排行榜只显示当前俱乐部前5000名、 </p>
+					<p> 4）昨日赢家排行（排名、玩家ID、昨日局数、昨日体力、查看详情-显示下一级别的个人信息里面的内容）*排行榜只显示当前俱乐部前200名、 </p>
+					<p> 5）昨日输家排行（排名、玩家ID、昨日局数、昨日体力、查看详情-显示下一级别的个人信息里面的内容）*排行榜只显示当前俱乐部前200名、 </p>
+					<p> 6）查找玩家 </p>
+
+				</div>
+				<h4 class="er_title">
+					图片展示
+				</h4>
+				<div class="img_box">
+					<img src="img/niudianfeng/1.jpg">
+					<img src="img/niudianfeng/2.jpg">
+					<img src="img/niudianfeng/3.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
