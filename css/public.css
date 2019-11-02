@@ -1,0 +1,43 @@
+
+html,body,div,h1,h2,h3,h4,h5,h6,img,ul,li,p,dl,dd,dt,select,option,input,table,th,td,a,textarea{
+	margin: 0;
+	padding: 0;
+	font: 12px/1.5 "微软雅黑";
+}
+html,body{
+	width: 100%;
+	overflow-x: hidden;
+}
+img{
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+select,option{
+	list-style: none;
+	/*appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;*/
+}
+select,input{
+	border:none;
+    outline:none;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #3e3e3e;
+}
+a:hover{
+	text-decoration: none;
+	color: #e74c3c;
+}
+button{
+	border: none;
+	outline:none;
+	background: none;
+}

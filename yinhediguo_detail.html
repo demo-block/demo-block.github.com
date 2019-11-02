@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="format-detection" content="email=no" />
+	<title>查看详细</title>
+	<script src="js/bowser.min.js" type="text/javascript"></script>
+	<script>
+		var iPhone = bowser.name;
+		if (iPhone = 'iPhone') {
+			var meta = document.createElement("meta");
+			var head = document.getElementsByTagName("head")[0];
+			head.insertBefore(meta, head.childNodes[0]);
+			meta.setAttribute("name", "viewport");
+			meta.setAttribute("content", "width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1");
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/system.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+	<div class="box">
+		<div class="main" style="margin-top: 60px;">
+			<div class="app_item">
+				<div class="detail_title">
+					银河帝国
+				</div>
+				<h4 class="er_title addr">
+					下载地址：<a href=""></a>
+				</h4>
+				<h4 class="er_title">
+					模式
+				</h4>
+				<div class="app_info">
+					<p> 七种建筑玩家需要依次建造或者一键建造，其建筑分别为</p>
+					<p>便利店</p>
+					<p>supermarket</p>
+					<p> 国际金融公司</p>
+					<p> 国际贸易运输公司</p>
+					<p> 银行</p>
+					<p> 医院</p>
+					<p> 摩天大厦</p>
+				</div>
+				<h4 class="er_title">
+					图片展示
+				</h4>
+				<div class="img_box">
+					<img src="img/eoc/login.png">
+					<img src="img/eoc/creat.png">
+					<img src="img/eoc/home.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+.main {
+  width: 1200px;
+  margin: 99px auto 70px;
+  overflow: hidden
+}
+
+.article_content {
+  color: #5e6267
+}
+
+.system_list {
+  display: block;
+  border-bottom: 1px solid #e4e0e0;
+  margin-bottom: 50px
+}
+
+.system_list:last-child {
+  border-bottom: none
+}
+
+.system_list .list_title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 25px
+}
+.system_item{
+  overflow: hidden;
+  border-bottom: 1px solid #eeeeee;
+  padding: 25px 0;
+}
+.system_title{
+  width: 30%;
+  float: left;
+}
+
+.system_title img{
+  width: 90%;
+}
+
+html[lang=en] .system_title .title {
+  position: relative;
+  top: 12px
+}
+
+
+.system_details {
+  width: 70%;
+  float: left;
+}
+.system_details .title{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.system_details p {
+  line-height: 28px;
+  font-size: 14px;
+  text-align: justify
+}
+
+.see-org {
+  right: 5px;
+  cursor: pointer;
+  float: right
+}
+
+.see-org a {
+  color: #0052d9;
+  font-size: 14px;
+  text-decoration: none
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),
+not all {
+
+  .icon_ai,
+  .icon_appstore,
+  .icon_article,
+  .icon_browser,
+  .icon_buluo,
+  .icon_cartoon,
+  .icon_cloud,
+  .icon_djr,
+  .icon_egame,
+  .icon_fm,
+  .icon_game,
+  .icon_gaming,
+  .icon_kb,
+  .icon_ke,
+  .icon_mail,
+  .icon_manager,
+  .icon_manager_2,
+  .icon_map,
+  .icon_movie,
+  .icon_music,
+  .icon_news,
+  .icon_now,
+  .icon_open,
+  .icon_pay,
+  .icon_qeys,
+  .icon_qian,
+  .icon_qq,
+  .icon_qq_pay,
+  .icon_qzone,
+  .icon_sports,
+  .icon_tencentmusic,
+  .icon_tu,
+  .icon_tucao,
+  .icon_video,
+  .icon_wechat,
+  .icon_wechat_gold,
+  .icon_wechat_pay,
+  .icon_weibo,
+  .icon_wj,
+  .icon_youtu,
+  .icon_zxg {
+    background-size: 48px 48px
+  }
+
+  .icon_wechat {
+    background-image: url("../images/2x/system/icon_wechat.jpg")
+  }
+
+  .icon_qq {
+    background-image: url("../images/2x/system/icon_qq.jpg")
+  }
+
+  .icon_qzone {
+    background-image: url("../images/2x/system/icon_qzone.jpg")
+  }
+
+  .icon_pay {
+    background-image: url("../images/2x/system/icon_pay.jpg")
+  }
+
+  .icon_wechat_pay {
+    background-image: url("../images/2x/system/icon_wechat_pay.jpg")
+  }
+
+  .icon_qq_pay {
+    background-image: url("../images/2x/system/icon_qq_pay.jpg")
+  }
+
+  .icon_game {
+    background-image: url("../images/2x/system/icon_game.jpg")
+  }
+
+  .icon_article {
+    background-image: url("../images/2x/system/icon_article.jpg")
+  }
+
+  .icon_cartoon {
+    background-image: url("../images/2x/system/icon_cartoon.jpg")
+  }
+
+  .icon_movie {
+    background-image: url("../images/2x/system/icon_movie.jpg")
+  }
+
+  .icon_video {
+    background-image: url("../images/2x/system/icon_video.jpg")
+  }
+
+  .icon_gaming {
+    background-image: url("../images/2x/system/icon_gaming.jpg")
+  }
+
+  .icon_music {
+    background-image: url("../images/2x/system/icon_music.jpg")
+  }
+
+  .icon_news {
+    background-image: url("../images/2x/system/icon_news.jpg")
+  }
+
+  .icon_weibo {
+    background-image: url("../images/2x/system/icon_weibo.jpg")
+  }
+
+  .icon_map {
+    background-image: url("../images/2x/system/icon_map_new.jpg")
+  }
+
+  .icon_mail {
+    background-image: url("../images/2x/system/icon_mail.jpg")
+  }
+
+  .icon_browser {
+    background-image: url("../images/2x/system/icon_browser.jpg")
+  }
+
+  .icon_appstore {
+    background-image: url("../images/2x/system/icon_appstore.jpg")
+  }
+
+  .icon_manager {
+    background-image: url("../images/2x/system/icon_manager.jpg")
+  }
+
+  .icon_manager_2 {
+    background-image: url("../images/2x/system/icon_manager_2.jpg")
+  }
+
+  .icon_open {
+    background-image: url("../images/2x/system/icon_open.jpg")
+  }
+
+  .icon_cloud {
+    background-image: url("../images/2x/system/icon_cloud.jpg")
+  }
+
+  .icon_djr {
+    background-image: url("../images/2x/system/icon_djr.jpg")
+  }
+
+  .icon_kb {
+    background-image: url("../images/2x/system/icon_kb.jpg")
+  }
+
+  .icon_qeys {
+    background-image: url("../images/2x/system/icon_qeys.jpg")
+  }
+
+  .icon_qian {
+    background-image: url("../images/2x/system/icon_qian.jpg")
+  }
+
+  .icon_sports {
+    background-image: url("../images/2x/system/icon_sports.jpg")
+  }
+
+  .icon_wechat_gold {
+    background-image: url("../images/2x/system/icon_wechat_gold.jpg")
+  }
+
+  .icon_zxg {
+    background-image: url("../images/2x/system/icon_zxg.jpg")
+  }
+
+  .icon_egame {
+    background-image: url("../images/2x/system/icon_egame.jpg")
+  }
+
+  .icon_now {
+    background-image: url("../images/2x/system/icon_now.jpg")
+  }
+
+  .icon_buluo {
+    background-image: url("../images/2x/system/icon_buluo.jpg")
+  }
+
+  .icon_ai {
+    background-image: url("../images/2x/system/icon_ai.jpg")
+  }
+
+  .icon_youtu {
+    background-image: url("../images/2x/system/icon_youtu.jpg")
+  }
+
+  .icon_tu {
+    background-image: url("../images/2x/system/icon_tu.jpg")
+  }
+
+  .icon_ke {
+    background-image: url("../images/2x/system/icon_ke.jpg")
+  }
+
+  .icon_fm {
+    background-image: url("../images/2x/system/icon_fm.jpg")
+  }
+
+  .icon_wj {
+    background-image: url("../images/2x/system/icon_wj.jpg")
+  }
+
+  .icon_tucao {
+    background-image: url("../images/2x/system/icon_tucao.jpg")
+  }
+
+  .icon_tencentmusic {
+    background-image: url("../images/2x/system/icon_tencentmusic.jpg")
+  }
+}

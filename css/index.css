@@ -1,0 +1,125 @@
+.phone {
+  display: none;
+}
+
+.detail_title {
+  font-size: 30px;
+  text-align: center;
+  line-height: 90px;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+  background: #2e51e1;
+}
+
+.app_item .er_title {
+  font-size: 18px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.app_item .app_info p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.img_box {
+  width: 100%;
+  overflow: hidden;
+}
+
+.img_box img {
+  width: 30%;
+  float: left;
+  margin-right: 3%;
+}
+
+.addr {
+  color: #2e51e1;
+}
+
+.addr a {
+  color: #2e51e1;
+  word-break: break-all;
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrap {
+    display: none;
+  }
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    min-width: 100% !important;
+  }
+
+  .phone {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .phone .phone_title {
+    margin-bottom: 9px;
+    background: #f2f4fb;
+    display: block;
+    border-left: 4px solid #2e51e1;
+    color: #2e51e1;
+    font-size: 16px;
+    padding-left: 12px;
+  }
+
+  .way-item {
+    overflow: hidden;
+    border-bottom: 1px solid #d9d9d9;
+		padding-bottom: 20px;
+		margin-top: 20px;
+  }
+
+  .way-item:last-child {
+    border: 0;
+  }
+
+  .way-img {
+    width: 30%;
+    float: left;
+  }
+
+  .way-img img {
+    width: 100%;
+    display: block;
+  }
+
+  .way-item .text {
+    width: 66%;
+    float: left;
+    margin-left: 4%;
+    font-size: 12px;
+  }
+
+  .way-item .text .sub-title {
+    font-size: 14px;
+    color: #000;
+  }
+
+  .way-item .text p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 12px;
+  }
+
+  /* 详情页 */
+  .main {
+    width: 86%;
+    margin: 0 auto;
+  }
+
+  .img_box img {
+    width: 48%;
+    margin: 1%;
+  }
+}
