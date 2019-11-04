@@ -319,7 +319,11 @@ body, html {
     transition: color .3s linear
 }
 
-.path_area a:hover, .sub_sidebar_list li a:hover, .sub_sidebar_list li.current{
+/* .path_area a:hover, .sub_sidebar_list li a:hover, .sub_sidebar_list li.current{
+    border-right: 3px solid #0052d9;
+} */
+
+.path_area a:hover, .sub_sidebar_list li.current{
     border-right: 3px solid #0052d9;
 }
 
