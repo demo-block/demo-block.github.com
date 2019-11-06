@@ -343,6 +343,19 @@
 							</a>
 						</div>
 						<div class="system_item">
+							<a href="lute_detail.html">
+								<div class="system_title">
+									<img src="img/lute/logo.png">
+								</div>
+								<div class="system_details">
+									<h4 class="title">鹿特币</h4>
+									<p class="txt">
+										鹿特币是一款在线矿机类app，包含了矿机收益、货币兑换、市场交易、智能钱包、矿池等各种3方功能。让玩家轻轻松松在线赚钱。
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="system_item">
 							<a href="yanxing_detail.html">
 								<div class="system_title">
 									<img src="img/huoxing/logo.png">
@@ -442,6 +455,19 @@
 								</div>
 							</a>
 						</div>
+						<div class="system_item">
+							<a href="fengshen_detail.html">
+								<div class="system_title">
+									<img src="img/fengshen/logo.png">
+								</div>
+								<div class="system_details">
+									<h4 class="title">封神大战</h4>
+									<p class="txt">
+										封神大战这款游戏完美的将西游历史人物与游戏相融合，游戏剧情新颖，独特的剧情打造，让玩家可以体验到一种不一样的西游故事。各种各样的西游角色玩家可以自由的进行收集以及养成，更有超多玩法模式等待体验。
+									</p>
+								</div>
+							</a>
+						</div>
 					</div>
 					<!-- DAPP -->
 					<div class="system_list system_pay" id="dapp" data-article="2">
@@ -528,8 +554,10 @@
 		<script src="js/script.js"></script>
 		<script src="js/index.js" type="text/javascript"></script>
 		<script>
+			if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+				window.location.href = "./index_mobile.html";
+			}
 			$(".sub_sidebar_list li").click(function() {
-				console.log('444')
 				$(".sub_sidebar_list li").removeClass('current')
 				$(this).addClass('current')
 			})
