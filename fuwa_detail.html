@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<title>查看详细</title>
+		<script src="js/bowser.min.js" type="text/javascript"></script>
+		<script>
+			var iPhone = bowser.name;
+			if (iPhone = 'iPhone') {
+				var meta = document.createElement("meta");
+				var head = document.getElementsByTagName("head")[0];
+				head.insertBefore(meta, head.childNodes[0]);
+				meta.setAttribute("name", "viewport");
+				meta.setAttribute("content", "width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1");
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<link rel="stylesheet" type="text/css" href="css/system.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="main" style="margin-top: 60px;">
+				<div class="app_item">
+					<div class="detail_title">
+						传奇福娃
+					</div>
+					<!-- <h4 class="er_title addr">
+						下载地址：公众号项目，可关注“慈善惠”公众号查看
+					</h4> -->
+					<div class="app_info">
+						<h4 class="er_title">项目概要:</h4>
+						<p>福娃共有7种，分别为：</p>
+						<p>女福娃：公排福娃（女，领养）</p>
+						<p>男福娃：神奇福娃（男，租赁）</p>
+						<p>助理福娃：跳排福娃，会排福娃，元宝福娃，Lucky福娃，奇迹福娃
+						男女福娃可以结婚生子,福娃需要喂养,可以长大,可以出租,可以领养,更换肤色,衣服,鞋子,帽子等装饰
+						房间可以更换地板和背景,
+						会客厅中好友可以群聊,也可以私聊</p>
+						<div class="img_box">
+							<img src="img/fuwa/login.png">
+							<img src="img/fuwa/home.png">
+							<img src="img/fuwa/lingyang.png">
+						</div>
+						<div class="img_box" style="margin-top: 20px;">
+							<img src="img/fuwa/hall.png">
+							<img src="img/fuwa/shop.png">
+							<img src="img/fuwa/map.png">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
